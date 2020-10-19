@@ -10,4 +10,9 @@ public class PindahHalaman : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 
+    public void KeluarAplikasi()
+    {
+        Application.Quit();
+    }
+
 }
